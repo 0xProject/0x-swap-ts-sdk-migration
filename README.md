@@ -26,7 +26,9 @@ npm install
 npm run generate
 ```
 
-This fetches the OpenAPI spec from 0x and generates the typed SDK in `src/client/`.
+This fetches the [OpenAPI spec](https://0x.org/docs/redocusaurus/plugin-redoc-0.yaml) and generates the typed SDK in `src/client/`. The spec URL is configured in [`openapi-ts.config.ts`](./openapi-ts.config.ts).
+
+> **Note:** The 0x API OpenAPI spec is kept in sync with API changes, so regenerating the SDK will always reflect the latest endpoints and types.
 
 ### 3. Use the SDK
 
