@@ -1,0 +1,20 @@
+{
+  "name": "0x-api-sdk-migration-example",
+  "version": "1.0.0",
+  "description": "Migration guide and example for using 0x API with @hey-api/openapi-ts",
+  "type": "module",
+  "scripts": {
+    "generate": "openapi-ts",
+    "build": "tsc",
+    "example": "bun run src/examples/swap-allowance-holder.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "viem": "^2.40.3"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "0.88.0",
+    "@types/bun": "latest",
+    "typescript": "^5.9.3"
+  }
+}
