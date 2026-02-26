@@ -1,7 +1,7 @@
 import { defineConfig } from "@hey-api/openapi-ts";
 
 export default defineConfig({
-  input: "https://raw.githubusercontent.com/0xProject/0x-docs/refs/heads/main/fern/openapi.yaml,
+  input: "https://raw.githubusercontent.com/0xProject/0x-docs/refs/heads/main/fern/openapi.yaml",
   output: {
     path: "src/client",
     format: "prettier",
